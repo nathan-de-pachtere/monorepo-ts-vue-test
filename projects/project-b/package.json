@@ -1,0 +1,12 @@
+{
+	"name": "@test/project-b",
+	"version": "0.0.0",
+	"license": "UNLICENSED",
+	"dependencies": {
+		"@test/package-b": "workspace:*",
+		"vue": "^3.3.7"
+	},
+	"devDependencies": {
+		"vite": "^4.0.0"
+	}
+}

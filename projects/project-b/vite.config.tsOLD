@@ -1,0 +1,10 @@
+import path from 'path';
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+	resolve: {
+		alias: {
+			'@test/package-b': path.join(__dirname, '../../packages/package-b'),
+		},
+	},
+});

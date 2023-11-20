@@ -1,0 +1,8 @@
+{
+	"name": "@test/package-b",
+	"version": "0.0.0",
+	"license": "UNLICENSED",
+	"dependencies": {
+		"vue": "^3.3.7"
+	}
+}

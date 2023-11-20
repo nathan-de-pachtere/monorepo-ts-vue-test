@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "monorepo-ts-vue-test",
+  "infra": "monorepo",
+  "license": "UNLICENSED",
+  "scripts": {
+    "deps": "pnpm update -i --latest -r",
+    "moon": "moon --color --log trace"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.6.5",
+    "prettier": "^3.0",
+    "tsconfig-moon": "^1.3.0",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": "20.0.0"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/**/*",
+      "projects/**/*"
+    ]
+  },
+  "packageManager": "yarn@3.6.4"
+}

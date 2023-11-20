@@ -1,24 +1,24 @@
 {
-  "extends": "./tsconfig.options.json",
-  "files": [],
-  "references": [
-    {
-      "path": "packages/package-a"
-    },
-    {
-      "path": "packages/package-b"
-    },
-    {
-      "path": "packages/package-c"
-    },
-    {
-      "path": "projects/project-a"
-    },
-    {
-      "path": "projects/project-b"
-    },
-    {
-      "path": "projects/project-c"
-    }
-  ]
+	"extends": "./tsconfig.options.json",
+	"files": [],
+	"references": [
+		{
+			"path": "packages/package-a"
+		},
+		{
+			"path": "packages/package-b"
+		},
+		{
+			"path": "packages/package-c"
+		},
+		{
+			"path": "projects/project-a"
+		},
+		{
+			"path": "projects/project-b"
+		},
+		{
+			"path": "projects/project-c"
+		}
+	]
 }

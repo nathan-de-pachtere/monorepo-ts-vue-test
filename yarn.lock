@@ -251,6 +251,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@test/package-c@workspace:packages/package-c":
+  version: 0.0.0-use.local
+  resolution: "@test/package-c@workspace:packages/package-c"
+  dependencies:
+    "@test/package-b": "workspace:*"
+    vue: ^3.3.7
+  languageName: unknown
+  linkType: soft
+
 "@test/project-b@workspace:projects/project-b":
   version: 0.0.0-use.local
   resolution: "@test/project-b@workspace:projects/project-b"

@@ -2,8 +2,15 @@
 	"extends": "../../tsconfig.options.json",
 	"compilerOptions": {
 		"emitDeclarationOnly": true,
-		"outDir": "../../.moon/cache/types/packages/package-c"
+		"outDir": "../../.moon/cache/types/packages/package-c",
+		"paths": {
+			"@test/package-b/*": ["../package-b/*"]
+		}
 	},
 	"include": ["**/*.vue"],
-	"references": []
+	"references": [
+		{
+			"path": "../package-b"
+		}
+	]
 }

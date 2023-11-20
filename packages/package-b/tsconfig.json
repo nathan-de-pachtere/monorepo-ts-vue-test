@@ -4,6 +4,6 @@
 		"emitDeclarationOnly": true,
 		"outDir": "../../.moon/cache/types/packages/package-b"
 	},
-	"include": ["**/*.vue"],
+	"include": ["**/*.vue", "./**/*.ts", "shims-vue.d.tsNOTMANDATORY"],
 	"references": []
 }

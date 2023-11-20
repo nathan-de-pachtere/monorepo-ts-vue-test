@@ -2,8 +2,23 @@
   "extends": "../../tsconfig.options.json",
   "compilerOptions": {
     "noEmit": true,
-    "outDir": "../../.moon/cache/types/projects/project-a"
+    "outDir": "../../.moon/cache/types/projects/project-a",
+    "paths": {
+      "@test/package-b/*": [
+        "../../packages/package-b/*"
+      ],
+      "@test/package-c/*": [
+        "../../packages/package-c/*"
+      ]
+    }
   },
   "include": [],
-  "references": []
+  "references": [
+    {
+      "path": "../../packages/package-b"
+    },
+    {
+      "path": "../../packages/package-c"
+    }
+  ]
 }

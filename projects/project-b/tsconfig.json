@@ -6,6 +6,9 @@
     "paths": {
       "@test/package-b/*": [
         "../../packages/package-b/*"
+      ],
+      "@test/package-c/*": [
+        "../../packages/package-c/*"
       ]
     }
   },
@@ -13,6 +16,9 @@
   "references": [
     {
       "path": "../../packages/package-b"
+    },
+    {
+      "path": "../../packages/package-c"
     }
   ]
 }

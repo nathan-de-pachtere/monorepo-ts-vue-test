@@ -1,2 +1,6 @@
-type: "application"
-language: "typescript"
+type: 'application'
+language: 'typescript'
+
+dependsOn:
+  - 'package-b'
+  - 'package-c'

@@ -3,3 +3,4 @@ language: 'typescript'
 
 dependsOn:
   - 'package-b'
+  - 'package-c'

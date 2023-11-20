@@ -2,8 +2,15 @@
 	"extends": "../../tsconfig.options.json",
 	"compilerOptions": {
 		"emitDeclarationOnly": true,
-		"outDir": "../../.moon/cache/types/packages/package-b"
+		"outDir": "../../.moon/cache/types/packages/package-b",
+		"paths": {
+			"@test/package-c/*": ["../package-c/*"]
+		}
 	},
 	"include": [],
-	"references": []
+	"references": [
+		{
+			"path": "../package-c"
+		}
+	]
 }

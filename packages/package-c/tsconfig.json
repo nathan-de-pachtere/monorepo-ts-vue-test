@@ -7,7 +7,7 @@
 			"@test/package-b/*": ["../package-b/*"]
 		}
 	},
-	"include": ["**/*.vue"],
+	"include": [],
 	"references": [
 		{
 			"path": "../package-b"

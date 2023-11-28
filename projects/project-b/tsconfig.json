@@ -1,18 +1,7 @@
 {
   "extends": "../../tsconfig.options.json",
-  "compilerOptions": {
-    "noEmit": true,
-    "outDir": "../../.moon/cache/types/projects/project-b",
-    "paths": {
-      "@test/package-b/*": [
-        "../../packages/package-b/*"
-      ],
-      "@test/package-c/*": [
-        "../../packages/package-c/*"
-      ]
-    }
-  },
   "include": [
+    "**/*",
     "../../packages/package-b/**/*",
     "../../packages/package-c/**/*"
   ],
@@ -23,5 +12,16 @@
     {
       "path": "../../packages/package-c"
     }
-  ]
+  ],
+  "compilerOptions": {
+    "outDir": "../../.moon/cache/types/projects/project-b",
+    "paths": {
+      "@test/package-b/*": [
+        "../../packages/package-b/*"
+      ],
+      "@test/package-c/*": [
+        "../../packages/package-c/*"
+      ]
+    }
+  }
 }

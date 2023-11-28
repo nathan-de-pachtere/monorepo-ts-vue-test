@@ -1,9 +1,10 @@
 {
   "extends": "../../tsconfig.options.json",
+  "include": [
+    "**/*"
+  ],
+  "references": [],
   "compilerOptions": {
-    "emitDeclarationOnly": true,
     "outDir": "../../.moon/cache/types/packages/package-a"
-  },
-  "include": [],
-  "references": []
+  }
 }

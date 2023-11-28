@@ -1,9 +1,10 @@
 {
   "extends": "../../tsconfig.options.json",
+  "include": [
+    "**/*"
+  ],
+  "references": [],
   "compilerOptions": {
-    "noEmit": true,
     "outDir": "../../.moon/cache/types/projects/project-c"
-  },
-  "include": [],
-  "references": []
+  }
 }

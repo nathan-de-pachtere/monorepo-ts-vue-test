@@ -1,9 +1,10 @@
 {
-	"extends": "../../tsconfig.options.json",
-	"compilerOptions": {
-		"emitDeclarationOnly": true,
-		"outDir": "../../.moon/cache/types/packages/package-b"
-	},
-	"include": ["**/*.vue", "./**/*.ts", "shims-vue.d.tsNOTMANDATORY"],
-	"references": []
+  "extends": "../../tsconfig.options.json",
+  "include": [
+    "**/*"
+  ],
+  "references": [],
+  "compilerOptions": {
+    "outDir": "../../.moon/cache/types/packages/package-b"
+  }
 }

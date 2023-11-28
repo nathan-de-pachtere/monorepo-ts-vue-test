@@ -12,7 +12,10 @@
       ]
     }
   },
-  "include": [],
+  "include": [
+    "../../packages/package-b/**/*",
+    "../../packages/package-c/**/*"
+  ],
   "references": [
     {
       "path": "../../packages/package-b"
